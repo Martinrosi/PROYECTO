@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARMA.com - Pagina de contacto</title>
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caformveat:wght@600&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta name="description" content="¡Busca los mejores libros en Karma! - Contactanos al 261-6000033 o buscanos en Gral. Espejo 38, M5500 Mendoza, Ciudad">
+    <meta name="keywords"  content="LIBROS, KARMA, CONTACTO, PREGUNTAS, DUDAS">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header id="top">
+        <nav>
+            <a class="logo" href="index.html"><img src="./img/karma1.png" width="150px" alt="Logo"></a>
+            <ul class="inicio">
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="submenu">
+                <a href="#contacto">Contacto</a>
+                <a href="#Preguntas">Preguntas Frecuentes</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-contacto">
+        <h1>Contactanos</h1>
+        <form class="main-contacto__form" id="contacto">
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <div class="main-contacto__form--div">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="main-contacto__form--div">
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" placeholder="Tu apellido" required>
+                </div>
+                <div class="main-contacto__form--div">
+                    <label for="email">Escribe tu Email: </label>
+                    <input type="email" required>
+                </div>
+                <div class="main-contacto__form--div">
+                    <label for="motivo">Motivo de Contacto</label>
+                    <select name="Motivos">
+                        <option value="garantia">Garantia</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+                <div class="main-contacto__form--div">
+                  <label for="mensaje"> Dejanos tu Mensaje:</label>
+                    <textarea placeholder="Escribe tu Mensaje"></textarea>
+                </div>
+                <div class="main-contacto__form--div">
+                    <p>Acepto los terminos y condiciones</p>
+                 <input type="checkbox" name="acepta" value="1" required/>
+                </div>
+                 <div class="main-contacto__form--div">
+                     <input class="main-contacto__form--div--input" type="reset" value="Borrar Datos">
+                     <input class="main-contacto__form--div--input" type="submit" value="Enviar">
+                 </div>
+            </fieldset>
+        </form>
+
+        <section class="section-contacto" id="Preguntas">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="section-contacto__preguntas">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Puedo hacer una compra mayorista en Karma?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En éste caso, será necesario que te comuniques con nuestro Departamento de Servicios al Cliente desde donde podrán ofrecerte una cotización por los ejemplares y la cantidad requerida.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Puedo consultar por títulos que no se encuentran publicados en el sitio?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Sí. Comunicate con nuestro Departamento de Servicios al Cliente y desde allí podremos satisfacer tu consulta y asesorar tu compra.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Puedo comprar utilizando promociones bancarias?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Sí, tenemos a disposición promociones con tarjetas de crédito.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Cambios y Devoluciones
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Podrás revocar la compra realizada o solicitar cambios, sin responsabilidad alguna, dentro de los 10 días corridos a partir de la recepción del producto adquirido. 
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            ¿Puedo hacer una compra a travez de la pagina Karma.com?
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            No, por el momeno no contamos con compras online, muy pronto estara disponible!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            ¿Tengo un cupon de descuento?
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Por el momento, los cupones de descuentos solo son validos en nuestra tienda fisica.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Defensa al Consumidor
+                          </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Dirección General de Defensa y Protección al Consumidor: para consultas y/o denuncias llame al 0800-999-2727
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-contacto">
+        <a class="footer-contacto__link" href="ofertas.html">Ofertas</a>
+        <a class="footer-contacto__link" href="nosotros.html">Nosotros</a>
+        <a class="footer-contacto__link" href="productos.html">Productos</a>
+        <a class="footer-contacto__link" href="contacto.html">Contacto</a>
+        <a class="footer-contacto__link" href="#">Preguntas Frecuentes</a>
+        <p class="footer-nosotros__p">Todos los derechos reservados Karma® 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>

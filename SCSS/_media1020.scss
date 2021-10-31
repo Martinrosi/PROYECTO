@@ -1,0 +1,608 @@
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {/*Ipad*/
+    $colorLibros:#42a4c288;
+    $colorOfertas: #42a4c288;
+    $titulo: #000000;
+    $p: #fffff0;
+    
+    $bgsecc1: #fffff094;
+    $bgsecc2: #fffff094;
+    $bgsecc3: #0b4d4da2;
+    
+    /*OPERACION*/ 
+    $margin: 30px;
+    
+    /*OPERACION 2*/
+    $padding: 30px;
+    
+    /*MAPA*/
+    $headdings:(
+        h1: 50px,
+        h2: 30px,
+        h3: 20px,
+        h4: 18px,
+    );
+     $h1: map-get($headdings, h1);
+     $h2: map-get($headdings, h2);
+     $h3: map-get($headdings, h3);
+     $h4: map-get($headdings, h4);
+     
+         body{
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            background-image: url(../img/fondo.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            header{
+                position: sticky;
+                z-index: 1;
+                top: 0px;
+                left: 10px;
+                width: 100%;
+                background-color: white;
+            }
+            nav{
+                font-family: 'Raleway', sans-serif;
+                padding: ($padding)-29;
+                img{
+
+                    width: 130px;
+                    
+                }
+                .logo{
+                    position: absolute;
+                    padding: ($padding)-30;
+                    margin: ($margin)-10;
+                    margin-left: 10pxpx;
+                    background-color: #feffff;
+                    border-radius: 15px;
+                    justify-self: center;
+                }
+                .inicio{
+                    font-size: 22px;
+                    color: #178ac0;
+                    margin: ($margin)-30;
+                    margin-top: 20px;
+                    margin-left: 250px;
+                    margin-right: 0px;
+                    margin-bottom: 0px;
+                    padding: ($padding)-25;
+                    padding-bottom: 0px;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: right;
+                    align-items: flex-end;
+                    li {
+                        margin: 0px;
+                        position: relative;
+                        display: inline-block;
+                    }
+                    ul{
+                        position: absolute;
+                        display: none;
+                    }
+                    li {
+                        display: inline-block;    
+                        margin: ($margin)-20;
+                        a{
+                        display: block;
+                        padding: auto;
+                        color: cadetblue;
+                        transition: all 0.2s ease-in-out;
+                    }
+                    }
+                    
+                    
+                    a:hover{
+                        background-color: cadetblue;
+                        color: cornsilk;
+                        
+                        border-radius: 10%;
+                        
+                    }
+                    .inicio li a{
+                        background-color: white;
+                        border-radius: 5px;
+                        transition: all 0.1s ease-in;
+                    }
+                }
+                .submenu{
+                    
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        font-size: 19px;
+                        color: antiquewhite;
+                        margin-top: 0px;
+                        background-color: cadetblue;
+                        border-radius: 5px;
+                        transition: all 0.2s ease-in-out;
+                    }
+                    a:hover{
+                        background-color: #ffffff;
+                        color: cadetblue;
+                    
+                    }
+                }
+            }
+            h1{
+                font-family: 'Caveat', cursive;
+                font-size: $h1;
+                text-align: center;
+                color: #406868;
+                letter-spacing: 12px;
+                
+            }
+            h2{
+                font-family: 'Caveat', cursive;
+                font-size: $h2;
+                text-align: center;
+                color: #406868;
+                
+            }
+            h3{
+                font-family: 'Raleway', sans-serif;
+                font-size: $h3;
+                color: #406868;
+                text-align: center;
+            }
+            h4{
+                font-family: 'Raleway', sans-serif;
+                font-size: $h4;
+                color: #406868;
+                text-align: center;
+            }
+            a {
+                color: #178ac0;
+                margin: ($margin)-25;
+                padding: ($padding)-25;
+                list-style-position: inside;
+                text-decoration: none;
+            }
+            p{
+                color: #000000;
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+            }
+            th{
+                background-color: lightsteelblue;
+            }
+            td{
+                background-color: #d4e1f1;
+            }
+            .karma{
+                    margin: 5px;
+                    img{
+                        width: 400px;
+                        margin-bottom: 10px;
+                    }
+                    
+    
+            }
+            .seccionUno{
+                
+                padding: ($padding)-30;
+                margin: ($margin)-25;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+                background-color: #fffff094;
+                border-radius: 20px;
+                img{
+                    width: 650px;
+                    margin: 5px;
+                }
+                
+            }
+            .seccionDos {
+                padding: ($padding)-15;
+                margin: $margin;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+                background-color: #fffff094;
+                border-radius: 20px;
+                img{
+                    margin: 10px;
+                    width: 350px;
+                }
+                .seccionOferta{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    align-items: center;
+                    margin: ($margin)-10;
+                    padding: ($padding)-10;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    img{
+                        width: 320px;
+                    }
+                } 
+                .nosotros{
+                    background-color: #fff3f094;
+                    padding: 0px;
+                    margin: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    text-align: center;
+                    border-radius: 20px;
+                    display: block;
+                    flex-direction: column;
+                    align-items: center;
+                    .imgNosotros1{
+                        width: 250px;
+                        border-radius: 30px;
+                        margin-right: 30px;
+                    }
+                    
+                }
+                .ubicacion{
+                    padding: ($padding)-15;
+                    margin: $margin;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    .imgNosotros{
+                        width: 250px;
+                        border-radius: 30px;
+                        margin-left: 30px;
+                    }
+                }
+                .proximoss{
+                    background-color: #fffff094;
+                    padding: ($padding)-15;
+                    margin: 5px;
+                    text-align: center;
+                    border-radius: 20px;
+                    div{
+                        margin: 0px;
+                        padding: ($padding)-10;
+                        display: flex;
+                        flex-direction: column;               
+                        align-items: center;
+                    }
+                    img{
+                        border: 2px double #949494;
+                        transition: all 0.2s ease-in-out;
+                    }
+                    img:hover{
+                        border: 2px solid white;
+                        
+                    }
+            
+                }
+            }
+            .seccionLibros {
+                padding: ($padding)-15;
+                margin: $margin;
+                margin-left: 0px;
+                margin-right: 0px;
+                text-align: center;
+                background-color: #fffff094;
+                border-radius: 20px;
+                width: 300px;
+                padding: ($padding)+10;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+                
+            }
+            .seccionTres{
+            
+                padding: ($padding)-15;
+                margin: $margin;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+                background-color:#0b4d4da2;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                justify-items: center;
+                align-items: center;
+                border-radius: 20px;
+                img{
+                    width: 250px;
+                }
+                h3{
+                    color: antiquewhite;
+                    padding-bottom: 15px;
+                }
+            }
+    
+            .destacado,
+            .ofertas{
+                color: #406868;
+                font-family: 'Caveat', cursive;
+                font-size: 36px;
+                text-align: center;
+            }
+            .libros {
+                
+                margin: $margin;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 0px;
+                text-align: center;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "libro1 libro2 libro3";
+                justify-content: space-around;
+                border-radius: 20px;
+                ul{
+                    list-style-position: inside;
+                    list-style-image: url(/img/descuento.png);
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    text-align: center;
+            }
+            div{
+                margin: 10px;
+                width: 90%;
+            }
+            @mixin cajas ($grid, $bg) {
+                grid-area:$grid;
+                background-color:$bg;
+                border-radius: 20px;
+                padding: ($padding)-14;
+                h4{
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                    color:$titulo
+                    }
+                p{
+                    color:$p
+                    }
+                }
+                .libro1{
+                    @include cajas (libro1, $colorOfertas);
+                    grid-column: 1;
+                    grid-row: 1;
+                }
+                .libro2{
+                    @include cajas (libro2, $colorOfertas);
+                    grid-column: 2;
+                    grid-row: 1;
+                }
+                .libro3{
+                    @include cajas (libro3, $colorOfertas);
+                    grid-column: 3;
+                    grid-row: 1;
+                }
+    
+    
+            }
+    
+            .librosInicio{
+                background-color: #646e6e69;
+                margin: $margin;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 0px;
+                text-align: center;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "libro1 libro2 libro3";
+
+                border-radius: 20px;
+                div{
+                    margin: 10px;
+                    width: 90%;
+                }
+                img{
+                    border: 2px double #949494;
+                }
+                }
+                @mixin cajas ($grid, $bg) {
+                    grid-area:$grid;
+                    background-color:$bg;
+                    border-radius: 20px;
+                    padding: ($padding)-14;
+                    h4{
+                        color:$titulo
+                        }
+                    p{
+                        color:$p
+                        }
+                }
+                .libro1{
+                    @include cajas (libro1, $colorLibros);
+                    grid-column: 1;
+                    grid-row: 1;
+                }
+                .libro2{
+                    @include cajas (libro2, $colorLibros);
+                    grid-column: 2;
+                    grid-row: 1;
+                }
+                .libro3{
+                    @include cajas (libro3, $colorLibros);
+                    grid-column: 3;
+                    grid-row: 1;
+                }
+    
+            
+            .Productoss{
+                background-color: rgba(255, 255, 255, 0.411);
+                margin: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 0px;
+                .Productos{
+                    margin: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    padding: 10px;
+                    padding-top:30px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto;
+                    justify-items: center;
+                    row-gap: 10px;
+                    column-gap: 10px;
+                    border-radius: 20px;
+            
+                    p{
+                        text-align: center;
+                    }
+                    img{
+                        width: 180px;
+                        border: 2px double #949494;
+                        transition: all 0.2s ease-in-out;
+                    }
+                    img:hover{
+                        border: 2px solid white;
+                        transform: scale(1.1, 1.1);
+                    }
+                    a {
+                        color: #02d2e0;
+                        margin: ($margin)-30;
+                        padding:($padding)-30;
+                        text-decoration: none;
+                    }
+                }
+    
+            }
+            
+            .footer-contacto,
+            .footer-index,
+            .footer-productos,
+            .footer-nosotros,
+            .footer-ofertas{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                color: #406868;
+                padding: ($padding)-20;
+                padding-top: 30px;
+                margin-top: 15px;
+                background-color: #0b4d4d;
+                .footer-nosotros__p,
+                .footer-index__p,
+                .footer-contacto__p,
+                .footer-productos__p,
+                .footer-ofertas__p{
+                    color: #9baebd;
+                    text-align: center;
+                }
+                .footer-contacto__link,
+                .footer-productos__link,
+                .footer-index__link,
+                .footer-nosotros__link,
+                .footer-ofertas__link{
+                    color: #9baebd;
+                }
+            }
+            .carousel{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 0px;
+                p{
+                    margin: ($margin)-20;
+                    font-size: 30px;
+                }
+            }
+            
+                
+            .paginacionn{
+                .paginacion{
+                    background-color: #0b4d4da2;
+                    margin-left: 200px;
+                    border-radius: 15px;
+                    margin-right: 200px;
+                    display: flex;
+                    justify-content: center;
+            }
+            }
+            
+            
+            
+            .main-contacto{
+               
+                h1{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 50px;
+                  
+                }
+                .main-contacto__form{
+                    background-color: #fffff0b2;
+                    padding: ($padding)-10;
+                    margin: $margin;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    color: black;
+                    border-radius: 20px;
+                    .main-contacto__form--div{
+                        margin: ($margin)-25;
+                        padding: ($padding)-25;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        .main-contacto__form--div--input{
+                            margin-right: 10px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            
+            .section-contacto{
+                background-color: #fffff0b2; 
+                margin: ($margin)-10;
+                padding: ($padding)-10;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 30px;
+                h2{
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    margin: ($margin)-20;
+                }
+            }
+            .recomendado{
+                background-color: #00000073;
+                margin: $margin;
+                padding: ($padding)-20;
+                margin-left: 300px;
+                margin-right: 300px;
+                border-radius: 20px;
+                .recom{
+                    margin: ($margin)-20;
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    img{
+                        transition: all 0.1s ease-in;
+                    }
+                    img:hover{
+                        border: 2px solid white;
+                    }
+                    a {
+                        color: #02d2e0;
+                        margin: ($margin)-30;
+                        padding: ($padding)-30;
+                        text-decoration: none;
+                    }
+                    
+                }
+                .libroRecomendado{
+                    margin: ($margin)-20;
+                    padding:($padding)-20;
+                }
+            }
+        }
+} 

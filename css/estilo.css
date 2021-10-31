@@ -1,0 +1,2238 @@
+/*MIXIN*/
+/*OPERACION*/
+/*OPERACION 2*/
+/*MAPA*/
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  margin: 0px;
+  padding: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  left: 10px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(65%, white), color-stop(90%, rgba(247, 247, 247, 0)));
+  background: linear-gradient(180deg, white 0%, white 65%, rgba(247, 247, 247, 0) 90%);
+}
+
+body nav {
+  font-family: 'Raleway', sans-serif;
+  padding: 1px;
+}
+
+body nav .logo {
+  position: absolute;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 100px;
+  background-color: #feffff;
+  border-radius: 15px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+body nav .logo:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+body nav .inicio {
+  color: #178ac0;
+  margin: 10px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  padding: 5px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body nav .inicio li {
+  position: relative;
+  display: inline-block;
+}
+
+body nav .inicio ul {
+  position: absolute;
+  display: none;
+}
+
+body nav .inicio li {
+  display: inline-block;
+  margin: 10px;
+}
+
+body nav .inicio li a {
+  display: block;
+  padding: auto;
+  color: cadetblue;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body nav .inicio a:hover {
+  background-color: cadetblue;
+  color: cornsilk;
+  border-radius: 10%;
+}
+
+body nav .inicio .inicio li a {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+body nav .submenu {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .submenu a {
+  color: antiquewhite;
+  margin-top: 0px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body nav .submenu a:hover {
+  background-color: #ffffff;
+  color: cadetblue;
+}
+
+body h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #406868;
+  letter-spacing: 12px;
+}
+
+body h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #406868;
+}
+
+body h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #406868;
+  text-align: center;
+}
+
+body h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #406868;
+  text-align: center;
+}
+
+body a {
+  color: #178ac0;
+  margin: 5px;
+  padding: 5px;
+  list-style-position: inside;
+  text-decoration: none;
+}
+
+body p {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+body th {
+  background-color: lightsteelblue;
+}
+
+body td {
+  background-color: #d4e1f1;
+}
+
+body .karma {
+  margin-left: 400px;
+  margin-right: 400px;
+  border-style: hidden;
+  text-align: center;
+  border-radius: 20px;
+}
+
+body .karma div {
+  padding: 20px;
+  padding-bottom: 0px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 20px;
+}
+
+body .seccionUno {
+  padding: 15px;
+  margin: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  background-color: #fffff094;
+  border-radius: 20px;
+}
+
+body .seccionDos,
+body .seccionLibros {
+  padding: 15px;
+  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  background-color: #fffff094;
+  border-radius: 20px;
+}
+
+body .seccionDos .proximoss,
+body .seccionLibros .proximoss {
+  background-color: #e8f9fab2;
+  padding: 15px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+body .seccionDos .proximoss div,
+body .seccionLibros .proximoss div {
+  margin: 30px;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .seccionDos .proximoss img,
+body .seccionLibros .proximoss img {
+  border: 2px double #949494;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body .seccionDos .proximoss img:hover,
+body .seccionLibros .proximoss img:hover {
+  border: 2px solid white;
+}
+
+body .seccionLibros {
+  width: 300px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .seccionTres {
+  padding: 15px;
+  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  background-color: #0b4d4da2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+body .seccionTres h3 {
+  color: antiquewhite;
+  padding-bottom: 15px;
+}
+
+body .destacado,
+body .ofertas {
+  color: #406868;
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+body .libros {
+  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "libro1 libro2 libro3";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+body .libros ul {
+  list-style-position: inside;
+  list-style-image: url(/img/descuento.png);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+body .libros div {
+  width: 300px;
+}
+
+body .libros .libro1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: libro1;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+body .libros .libro1 h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+
+body .libros .libro1 p {
+  color: #fffff0;
+}
+
+body .libros .libro2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: libro2;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+body .libros .libro2 h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+
+body .libros .libro2 p {
+  color: #fffff0;
+}
+
+body .libros .libro3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: libro3;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+body .libros .libro3 h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000;
+}
+
+body .libros .libro3 p {
+  color: #fffff0;
+}
+
+body .librosInicio {
+  background-color: #646e6e69;
+  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "libro1 libro2 libro3";
+  border-radius: 20px;
+}
+
+body .librosInicio div {
+  width: 90%;
+}
+
+body .librosInicio img {
+  border: 2px double #949494;
+}
+
+body .librosInicio img:hover {
+  border: 2px solid white;
+}
+
+body .librosInicio .libro1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: libro1;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body .librosInicio .libro1 h4 {
+  color: #000000;
+}
+
+body .librosInicio .libro1 p {
+  color: #fffff0;
+}
+
+body .librosInicio .libro2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: libro2;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body .librosInicio .libro2 h4 {
+  color: #000000;
+}
+
+body .librosInicio .libro2 p {
+  color: #fffff0;
+}
+
+body .librosInicio .libro3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: libro3;
+  background-color: #42a4c288;
+  border-radius: 20px;
+  padding: 16px;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+body .librosInicio .libro3 h4 {
+  color: #000000;
+}
+
+body .librosInicio .libro3 p {
+  color: #fffff0;
+}
+
+body .Productos {
+  background-color: rgba(100, 110, 110, 0.411);
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 30px;
+  border-radius: 20px;
+}
+
+body .Productos p {
+  text-align: center;
+}
+
+body .Productos img {
+  border: 2px double #949494;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body .Productos img:hover {
+  border: 2px solid white;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+body .Productos a {
+  color: #02d2e0;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body .footer-contacto,
+body .footer-index,
+body .footer-productos,
+body .footer-nosotros,
+body .footer-ofertas {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #406868;
+  padding: 10px;
+  padding-top: 30px;
+  margin-top: 15px;
+  background-color: #0b4d4d;
+}
+
+body .footer-contacto .footer-nosotros__p,
+body .footer-contacto .footer-index__p,
+body .footer-contacto .footer-contacto__p,
+body .footer-contacto .footer-productos__p,
+body .footer-contacto .footer-ofertas__p,
+body .footer-index .footer-nosotros__p,
+body .footer-index .footer-index__p,
+body .footer-index .footer-contacto__p,
+body .footer-index .footer-productos__p,
+body .footer-index .footer-ofertas__p,
+body .footer-productos .footer-nosotros__p,
+body .footer-productos .footer-index__p,
+body .footer-productos .footer-contacto__p,
+body .footer-productos .footer-productos__p,
+body .footer-productos .footer-ofertas__p,
+body .footer-nosotros .footer-nosotros__p,
+body .footer-nosotros .footer-index__p,
+body .footer-nosotros .footer-contacto__p,
+body .footer-nosotros .footer-productos__p,
+body .footer-nosotros .footer-ofertas__p,
+body .footer-ofertas .footer-nosotros__p,
+body .footer-ofertas .footer-index__p,
+body .footer-ofertas .footer-contacto__p,
+body .footer-ofertas .footer-productos__p,
+body .footer-ofertas .footer-ofertas__p {
+  color: #9baebd;
+  text-align: center;
+}
+
+body .footer-contacto .footer-contacto__link,
+body .footer-contacto .footer-productos__link,
+body .footer-contacto .footer-index__link,
+body .footer-contacto .footer-nosotros__link,
+body .footer-contacto .footer-ofertas__link,
+body .footer-index .footer-contacto__link,
+body .footer-index .footer-productos__link,
+body .footer-index .footer-index__link,
+body .footer-index .footer-nosotros__link,
+body .footer-index .footer-ofertas__link,
+body .footer-productos .footer-contacto__link,
+body .footer-productos .footer-productos__link,
+body .footer-productos .footer-index__link,
+body .footer-productos .footer-nosotros__link,
+body .footer-productos .footer-ofertas__link,
+body .footer-nosotros .footer-contacto__link,
+body .footer-nosotros .footer-productos__link,
+body .footer-nosotros .footer-index__link,
+body .footer-nosotros .footer-nosotros__link,
+body .footer-nosotros .footer-ofertas__link,
+body .footer-ofertas .footer-contacto__link,
+body .footer-ofertas .footer-productos__link,
+body .footer-ofertas .footer-index__link,
+body .footer-ofertas .footer-nosotros__link,
+body .footer-ofertas .footer-ofertas__link {
+  color: #9baebd;
+}
+
+body .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px;
+}
+
+body .carousel p {
+  margin: 10px;
+  font-size: 30px;
+}
+
+body .seccionOferta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+body .paginacion {
+  background-color: #0b4d4da2;
+  margin-left: 600px;
+  border-radius: 15px;
+  margin-right: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .nosotros {
+  background-color: #e8f9fab2;
+  padding: 15px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .nosotros .imgNosotros1 {
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+body .ubicacion {
+  padding: 15px;
+  margin: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .ubicacion .imgNosotros {
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+body .main-contacto h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body .main-contacto .main-contacto__form {
+  background-color: #0b4d4da2;
+  padding: 20px;
+  margin: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  border-radius: 20px;
+}
+
+body .main-contacto .main-contacto__form .main-contacto__form--div {
+  margin: 5px;
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body .main-contacto .main-contacto__form .main-contacto__form--div .main-contacto__form--div--input {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+body .section-contacto {
+  background-color: #fffff094;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 30px;
+}
+
+body .section-contacto h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+}
+
+body .recomendado {
+  background-color: #00000073;
+  margin: 30px;
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 20px;
+}
+
+body .recomendado .recom {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body .recomendado .recom img {
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+body .recomendado .recom img:hover {
+  border: 2px solid white;
+}
+
+body .recomendado .recom a {
+  color: #02d2e0;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body .recomendado .libroRecomendado {
+  margin: 10px;
+  padding: 10px;
+}
+
+/*OPERACION*/
+/*OPERACION 2*/
+/*MAPA*/
+@media only screen and (max-width: 767px) and (min-width: 360px) {
+  body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  body * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    left: 10px;
+    width: 100%;
+    background-color: white;
+  }
+  body nav {
+    font-family: 'Raleway', sans-serif;
+    padding: 1px;
+  }
+  body nav img {
+    width: 80px;
+  }
+  body nav .logo {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    background-color: #feffff;
+    border-radius: 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  body nav .inicio {
+    font-size: 12px;
+    color: #178ac0;
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body nav .inicio li {
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+  }
+  body nav .inicio ul {
+    position: absolute;
+    display: none;
+  }
+  body nav .inicio li {
+    display: inline-block;
+    margin: 10px;
+  }
+  body nav .inicio li a {
+    display: block;
+    padding: auto;
+    color: cadetblue;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body nav .inicio a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 10%;
+  }
+  body nav .inicio .inicio li a {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  body nav .submenu {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body nav .submenu a {
+    font-size: 12px;
+    color: antiquewhite;
+    margin-top: 0px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body nav .submenu a:hover {
+    background-color: #ffffff;
+    color: cadetblue;
+  }
+  body h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #406868;
+    letter-spacing: 12px;
+  }
+  body h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #406868;
+  }
+  body h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #406868;
+    text-align: center;
+  }
+  body h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #406868;
+    text-align: center;
+  }
+  body a {
+    color: #178ac0;
+    margin: 5px;
+    padding: 5px;
+    list-style-position: inside;
+    text-decoration: none;
+  }
+  body p {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
+  body th {
+    background-color: lightsteelblue;
+  }
+  body td {
+    background-color: #d4e1f1;
+  }
+  body .karma {
+    margin: 5px;
+  }
+  body .karma img {
+    width: 200px;
+  }
+  body .seccionUno {
+    padding: 0px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+  }
+  body .seccionUno img {
+    width: 300px;
+    margin: 5px;
+  }
+  body .seccionDos {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+  }
+  body .seccionDos img {
+    margin: 10px;
+    width: 250px;
+  }
+  body .seccionDos .seccionOferta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .seccionDos .seccionOferta img {
+    width: 190px;
+  }
+  body .seccionDos .nosotros {
+    background-color: #fff3f094;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .seccionDos .nosotros .imgNosotros1 {
+    width: 250px;
+    border-radius: 30px;
+    margin-right: 30px;
+  }
+  body .seccionDos .ubicacion {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .seccionDos .ubicacion .imgNosotros {
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 30px;
+  }
+  body .seccionDos .proximoss {
+    background-color: #fffff094;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  body .seccionDos .proximoss div {
+    margin: 0px;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .seccionDos .proximoss img {
+    border: 2px double #949494;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body .seccionDos .proximoss img:hover {
+    border: 2px solid white;
+  }
+  body .seccionLibros {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+    width: 300px;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .seccionTres {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #0b4d4da2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 20px;
+  }
+  body .seccionTres img {
+    width: 250px;
+  }
+  body .seccionTres h3 {
+    color: antiquewhite;
+    padding-bottom: 15px;
+  }
+  body .destacado,
+  body .ofertas {
+    color: #406868;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-align: center;
+  }
+  body .libros {
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 20px;
+  }
+  body .libros ul {
+    list-style-position: inside;
+    list-style-image: url(/img/descuento.png);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  body .libros div {
+    margin: 10px;
+    width: 300px;
+  }
+  body .libros .libro1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: libro1;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libros .libro1 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro1 p {
+    color: #fffff0;
+  }
+  body .libros .libro2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: libro2;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libros .libro2 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro2 p {
+    color: #fffff0;
+  }
+  body .libros .libro3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: libro3;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libros .libro3 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro3 p {
+    color: #fffff0;
+  }
+  body .librosInicio {
+    background-color: #646e6e69;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 20px;
+  }
+  body .librosInicio div {
+    margin: 10px;
+    width: 90%;
+  }
+  body .librosInicio img {
+    border: 2px double #949494;
+  }
+  body .libro1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: libro1;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro1 h4 {
+    color: #000000;
+  }
+  body .libro1 p {
+    color: #fffff0;
+  }
+  body .libro2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: libro2;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro2 h4 {
+    color: #000000;
+  }
+  body .libro2 p {
+    color: #fffff0;
+  }
+  body .libro3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: libro3;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro3 h4 {
+    color: #000000;
+  }
+  body .libro3 p {
+    color: #fffff0;
+  }
+  body .Productoss {
+    background-color: rgba(255, 255, 255, 0.411);
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  body .Productoss .Productos {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    padding-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 10px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    border-radius: 20px;
+  }
+  body .Productoss .Productos p {
+    text-align: center;
+  }
+  body .Productoss .Productos img {
+    width: 140px;
+    border: 2px double #949494;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body .Productoss .Productos img:hover {
+    border: 2px solid white;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+  body .Productoss .Productos a {
+    color: #02d2e0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  body .footer-contacto,
+  body .footer-index,
+  body .footer-productos,
+  body .footer-nosotros,
+  body .footer-ofertas {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #406868;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 15px;
+    background-color: #0b4d4d;
+  }
+  body .footer-contacto .footer-nosotros__p,
+  body .footer-contacto .footer-index__p,
+  body .footer-contacto .footer-contacto__p,
+  body .footer-contacto .footer-productos__p,
+  body .footer-contacto .footer-ofertas__p,
+  body .footer-index .footer-nosotros__p,
+  body .footer-index .footer-index__p,
+  body .footer-index .footer-contacto__p,
+  body .footer-index .footer-productos__p,
+  body .footer-index .footer-ofertas__p,
+  body .footer-productos .footer-nosotros__p,
+  body .footer-productos .footer-index__p,
+  body .footer-productos .footer-contacto__p,
+  body .footer-productos .footer-productos__p,
+  body .footer-productos .footer-ofertas__p,
+  body .footer-nosotros .footer-nosotros__p,
+  body .footer-nosotros .footer-index__p,
+  body .footer-nosotros .footer-contacto__p,
+  body .footer-nosotros .footer-productos__p,
+  body .footer-nosotros .footer-ofertas__p,
+  body .footer-ofertas .footer-nosotros__p,
+  body .footer-ofertas .footer-index__p,
+  body .footer-ofertas .footer-contacto__p,
+  body .footer-ofertas .footer-productos__p,
+  body .footer-ofertas .footer-ofertas__p {
+    color: #9baebd;
+    text-align: center;
+  }
+  body .footer-contacto .footer-contacto__link,
+  body .footer-contacto .footer-productos__link,
+  body .footer-contacto .footer-index__link,
+  body .footer-contacto .footer-nosotros__link,
+  body .footer-contacto .footer-ofertas__link,
+  body .footer-index .footer-contacto__link,
+  body .footer-index .footer-productos__link,
+  body .footer-index .footer-index__link,
+  body .footer-index .footer-nosotros__link,
+  body .footer-index .footer-ofertas__link,
+  body .footer-productos .footer-contacto__link,
+  body .footer-productos .footer-productos__link,
+  body .footer-productos .footer-index__link,
+  body .footer-productos .footer-nosotros__link,
+  body .footer-productos .footer-ofertas__link,
+  body .footer-nosotros .footer-contacto__link,
+  body .footer-nosotros .footer-productos__link,
+  body .footer-nosotros .footer-index__link,
+  body .footer-nosotros .footer-nosotros__link,
+  body .footer-nosotros .footer-ofertas__link,
+  body .footer-ofertas .footer-contacto__link,
+  body .footer-ofertas .footer-productos__link,
+  body .footer-ofertas .footer-index__link,
+  body .footer-ofertas .footer-nosotros__link,
+  body .footer-ofertas .footer-ofertas__link {
+    color: #9baebd;
+  }
+  body .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px;
+  }
+  body .carousel p {
+    margin: 10px;
+    font-size: 30px;
+  }
+  body .paginacionn .paginacion {
+    background-color: #0b4d4da2;
+    margin-left: 0px;
+    border-radius: 15px;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-contacto h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  body .main-contacto .main-contacto__form {
+    background-color: #fffff0b2;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    border-radius: 20px;
+  }
+  body .main-contacto .main-contacto__form .main-contacto__form--div {
+    margin: 5px;
+    padding: 5px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  body .main-contacto .main-contacto__form .main-contacto__form--div .main-contacto__form--div--input {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  body .section-contacto {
+    background-color: #fffff0b2;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 30px;
+  }
+  body .section-contacto h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+  }
+  body .recomendado {
+    background-color: #00000073;
+    margin: 30px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+  }
+  body .recomendado .recom {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  body .recomendado .recom img {
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  body .recomendado .recom img:hover {
+    border: 2px solid white;
+  }
+  body .recomendado .recom a {
+    color: #02d2e0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  body .recomendado .libroRecomendado {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  /*Ipad*/
+  /*OPERACION*/
+  /*OPERACION 2*/
+  /*MAPA*/
+  body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  body * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body header {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    left: 10px;
+    width: 100%;
+    background-color: white;
+  }
+  body nav {
+    font-family: 'Raleway', sans-serif;
+    padding: 1px;
+  }
+  body nav img {
+    width: 130px;
+  }
+  body nav .logo {
+    position: absolute;
+    padding: 0px;
+    margin: 20px;
+    margin-left: 10pxpx;
+    background-color: #feffff;
+    border-radius: 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  body nav .inicio {
+    font-size: 22px;
+    color: #178ac0;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body nav .inicio li {
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+  }
+  body nav .inicio ul {
+    position: absolute;
+    display: none;
+  }
+  body nav .inicio li {
+    display: inline-block;
+    margin: 10px;
+  }
+  body nav .inicio li a {
+    display: block;
+    padding: auto;
+    color: cadetblue;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body nav .inicio a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 10%;
+  }
+  body nav .inicio .inicio li a {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  body nav .submenu {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body nav .submenu a {
+    font-size: 19px;
+    color: antiquewhite;
+    margin-top: 0px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body nav .submenu a:hover {
+    background-color: #ffffff;
+    color: cadetblue;
+  }
+  body h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #406868;
+    letter-spacing: 12px;
+  }
+  body h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #406868;
+  }
+  body h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #406868;
+    text-align: center;
+  }
+  body h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #406868;
+    text-align: center;
+  }
+  body a {
+    color: #178ac0;
+    margin: 5px;
+    padding: 5px;
+    list-style-position: inside;
+    text-decoration: none;
+  }
+  body p {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+  }
+  body th {
+    background-color: lightsteelblue;
+  }
+  body td {
+    background-color: #d4e1f1;
+  }
+  body .karma {
+    margin: 5px;
+  }
+  body .karma img {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+  body .seccionUno {
+    padding: 0px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+  }
+  body .seccionUno img {
+    width: 650px;
+    margin: 5px;
+  }
+  body .seccionDos {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+  }
+  body .seccionDos img {
+    margin: 10px;
+    width: 350px;
+  }
+  body .seccionDos .seccionOferta {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .seccionDos .seccionOferta img {
+    width: 320px;
+  }
+  body .seccionDos .nosotros {
+    background-color: #fff3f094;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .seccionDos .nosotros .imgNosotros1 {
+    width: 250px;
+    border-radius: 30px;
+    margin-right: 30px;
+  }
+  body .seccionDos .ubicacion {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .seccionDos .ubicacion .imgNosotros {
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 30px;
+  }
+  body .seccionDos .proximoss {
+    background-color: #fffff094;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  body .seccionDos .proximoss div {
+    margin: 0px;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .seccionDos .proximoss img {
+    border: 2px double #949494;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body .seccionDos .proximoss img:hover {
+    border: 2px solid white;
+  }
+  body .seccionLibros {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #fffff094;
+    border-radius: 20px;
+    width: 300px;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .seccionTres {
+    padding: 15px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #0b4d4da2;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 20px;
+  }
+  body .seccionTres img {
+    width: 250px;
+  }
+  body .seccionTres h3 {
+    color: antiquewhite;
+    padding-bottom: 15px;
+  }
+  body .destacado,
+  body .ofertas {
+    color: #406868;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-align: center;
+  }
+  body .libros {
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "libro1 libro2 libro3";
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-radius: 20px;
+  }
+  body .libros ul {
+    list-style-position: inside;
+    list-style-image: url(/img/descuento.png);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  body .libros div {
+    margin: 10px;
+    width: 90%;
+  }
+  body .libros .libro1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: libro1;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  body .libros .libro1 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro1 p {
+    color: #fffff0;
+  }
+  body .libros .libro2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: libro2;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  body .libros .libro2 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro2 p {
+    color: #fffff0;
+  }
+  body .libros .libro3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: libro3;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    grid-column: 3;
+    grid-row: 1;
+  }
+  body .libros .libro3 h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+  body .libros .libro3 p {
+    color: #fffff0;
+  }
+  body .librosInicio {
+    background-color: #646e6e69;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "libro1 libro2 libro3";
+    border-radius: 20px;
+  }
+  body .librosInicio div {
+    margin: 10px;
+    width: 90%;
+  }
+  body .librosInicio img {
+    border: 2px double #949494;
+  }
+  body .libro1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: libro1;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro1 h4 {
+    color: #000000;
+  }
+  body .libro1 p {
+    color: #fffff0;
+  }
+  body .libro2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: libro2;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro2 h4 {
+    color: #000000;
+  }
+  body .libro2 p {
+    color: #fffff0;
+  }
+  body .libro3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: libro3;
+    background-color: #42a4c288;
+    border-radius: 20px;
+    padding: 16px;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .libro3 h4 {
+    color: #000000;
+  }
+  body .libro3 p {
+    color: #fffff0;
+  }
+  body .Productoss {
+    background-color: rgba(255, 255, 255, 0.411);
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+  }
+  body .Productoss .Productos {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    padding-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 10px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    border-radius: 20px;
+  }
+  body .Productoss .Productos p {
+    text-align: center;
+  }
+  body .Productoss .Productos img {
+    width: 180px;
+    border: 2px double #949494;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  body .Productoss .Productos img:hover {
+    border: 2px solid white;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+  body .Productoss .Productos a {
+    color: #02d2e0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  body .footer-contacto,
+  body .footer-index,
+  body .footer-productos,
+  body .footer-nosotros,
+  body .footer-ofertas {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #406868;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 15px;
+    background-color: #0b4d4d;
+  }
+  body .footer-contacto .footer-nosotros__p,
+  body .footer-contacto .footer-index__p,
+  body .footer-contacto .footer-contacto__p,
+  body .footer-contacto .footer-productos__p,
+  body .footer-contacto .footer-ofertas__p,
+  body .footer-index .footer-nosotros__p,
+  body .footer-index .footer-index__p,
+  body .footer-index .footer-contacto__p,
+  body .footer-index .footer-productos__p,
+  body .footer-index .footer-ofertas__p,
+  body .footer-productos .footer-nosotros__p,
+  body .footer-productos .footer-index__p,
+  body .footer-productos .footer-contacto__p,
+  body .footer-productos .footer-productos__p,
+  body .footer-productos .footer-ofertas__p,
+  body .footer-nosotros .footer-nosotros__p,
+  body .footer-nosotros .footer-index__p,
+  body .footer-nosotros .footer-contacto__p,
+  body .footer-nosotros .footer-productos__p,
+  body .footer-nosotros .footer-ofertas__p,
+  body .footer-ofertas .footer-nosotros__p,
+  body .footer-ofertas .footer-index__p,
+  body .footer-ofertas .footer-contacto__p,
+  body .footer-ofertas .footer-productos__p,
+  body .footer-ofertas .footer-ofertas__p {
+    color: #9baebd;
+    text-align: center;
+  }
+  body .footer-contacto .footer-contacto__link,
+  body .footer-contacto .footer-productos__link,
+  body .footer-contacto .footer-index__link,
+  body .footer-contacto .footer-nosotros__link,
+  body .footer-contacto .footer-ofertas__link,
+  body .footer-index .footer-contacto__link,
+  body .footer-index .footer-productos__link,
+  body .footer-index .footer-index__link,
+  body .footer-index .footer-nosotros__link,
+  body .footer-index .footer-ofertas__link,
+  body .footer-productos .footer-contacto__link,
+  body .footer-productos .footer-productos__link,
+  body .footer-productos .footer-index__link,
+  body .footer-productos .footer-nosotros__link,
+  body .footer-productos .footer-ofertas__link,
+  body .footer-nosotros .footer-contacto__link,
+  body .footer-nosotros .footer-productos__link,
+  body .footer-nosotros .footer-index__link,
+  body .footer-nosotros .footer-nosotros__link,
+  body .footer-nosotros .footer-ofertas__link,
+  body .footer-ofertas .footer-contacto__link,
+  body .footer-ofertas .footer-productos__link,
+  body .footer-ofertas .footer-index__link,
+  body .footer-ofertas .footer-nosotros__link,
+  body .footer-ofertas .footer-ofertas__link {
+    color: #9baebd;
+  }
+  body .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px;
+  }
+  body .carousel p {
+    margin: 10px;
+    font-size: 30px;
+  }
+  body .paginacionn .paginacion {
+    background-color: #0b4d4da2;
+    margin-left: 200px;
+    border-radius: 15px;
+    margin-right: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-contacto h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  body .main-contacto .main-contacto__form {
+    background-color: #fffff0b2;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    border-radius: 20px;
+  }
+  body .main-contacto .main-contacto__form .main-contacto__form--div {
+    margin: 5px;
+    padding: 5px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  body .main-contacto .main-contacto__form .main-contacto__form--div .main-contacto__form--div--input {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  body .section-contacto {
+    background-color: #fffff0b2;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  body .section-contacto h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+  }
+  body .recomendado {
+    background-color: #00000073;
+    margin: 30px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+  }
+  body .recomendado .recom {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  body .recomendado .recom img {
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  body .recomendado .recom img:hover {
+    border: 2px solid white;
+  }
+  body .recomendado .recom a {
+    color: #02d2e0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  body .recomendado .libroRecomendado {
+    margin: 10px;
+    padding: 10px;
+  }
+}
